@@ -12,6 +12,7 @@ export default function App() {
             <Route path='/' element={<Login />} />     
             <Route path='/send-email' element={<EnterEmail />} />   
             <Route path='/change-pass' element={<ChangePass />} />   
+            <Route path='/change-pass' element={<ChangePass />} />   
         </Routes>
     </div>
   )
