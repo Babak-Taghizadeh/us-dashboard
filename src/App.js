@@ -4,14 +4,16 @@ import './styles.css'
 import Login from './pages/login/login'
 import EnterEmail from './pages/login/enter-email'
 import ChangePass from './pages/login/change-pass'
+import DashboardAdmin from './pages/main/dashboard-admin'
 
 export default function App() {
     return (
       <div>
         <Routes>
-            <Route path='/' element={<Login />} />     
+            <Route path='/' element={<DashboardAdmin />} />     
             <Route path='/send-email' element={<EnterEmail />} />   
             <Route path='/change-pass' element={<ChangePass />} />   
+            <Route path='/change-pass' element={<Login />} />   
         </Routes>
     </div>
   )

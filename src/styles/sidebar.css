@@ -1,0 +1,24 @@
+body {
+    padding: 1rem;
+}
+
+.db-btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+    border: 3px solid gray;
+    padding: 0.3rem;
+    width: 9rem;
+    border-radius: 10px;
+}
+
+.db-btn-container button {
+    width: 8rem;
+    text-align: start;
+    /* vertical-align: middle; */
+}
+
+#home {
+    width: 1.5rem;
+}
