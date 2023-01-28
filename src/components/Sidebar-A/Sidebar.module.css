@@ -1,0 +1,37 @@
+body {
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    gap: 0.5rem;
+    border: 2px solid gray;
+    padding: 0.5rem;
+    width: 16rem;
+    height: 26rem;
+    border-radius: 10px;
+}
+
+.container button {
+    width: 100%;
+    height: 100%;
+    text-align: start;
+    cursor: pointer;
+    background-color: #bac0ce8a;
+    border: none;
+    border-radius: 10px;
+}
+
+.container img {
+    width: 3rem;
+    vertical-align: middle;
+}
+
+.container span {
+    vertical-align: middle;
+    font-size: 1.2rem;
+    margin-left: 0.3rem;
+}
+

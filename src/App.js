@@ -4,7 +4,7 @@ import './styles.css'
 import Login from './pages/login/login'
 import EnterEmail from './pages/login/enter-email'
 import ChangePass from './pages/login/change-pass'
-import DashboardAdmin from './pages/main/dashboard-admin'
+import DashboardAdmin from './pages/main/Dashboard-Admin'
 
 export default function App() {
     return (

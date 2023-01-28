@@ -1,0 +1,28 @@
+.container {
+    width: 25rem;
+    display: flex;
+    position: relative;
+}
+
+.container input {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 0.6rem 0.9rem;
+    border: 2px solid rgb(190, 186, 186);
+    border-radius: 10px;
+    background-color: #fff;
+    outline: none;
+}
+
+.container button {
+    border: none;
+    background-color: #fff;
+    position: absolute;
+    right: 0.4rem;
+    top: 0.5rem;
+    cursor: pointer;
+}
+
+.container img {
+    width: 2rem;
+}

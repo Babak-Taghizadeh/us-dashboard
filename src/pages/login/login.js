@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from 'react'
+// import React, { useState, useEffect } from 'react'
 // import axios from 'axios'
-import { Link } from 'react-router-dom'
-import LoginFooter from '../../components/login-footer.js'
-import './login.css'
+import LoginFooter from "../../components/Login-Footer/login-footer.js";
 
 export default function Login() {
   // const [data, setData] = useState(null)
@@ -17,13 +15,7 @@ export default function Login() {
 
   return (
     <div >
-      <div className='container'>
-      <input type='text' placeholder='Email'/>
-      <input type='password' placeholder='Password' />
-      <button>Log In</button>
-      <Link id='link' to="/send-email">Forgot Password?</Link>
-      <p>The credential you enterd did not match</p>
-      </div>  
+ 
       <LoginFooter />
     </div>
   )

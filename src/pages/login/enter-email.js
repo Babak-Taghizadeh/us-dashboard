@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import LoginFooter from '../../components/login-footer'
+import LoginFooter from "../../components/Login-Footer/login-footer";
 
 export default function EnterEmail() {
   return (

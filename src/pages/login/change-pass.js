@@ -1,5 +1,5 @@
 import React from 'react'
-import LoginFooter from '../../components/login-footer'
+import LoginFooter from "../../components/Login-Footer/login-footer";
 
 export default function ChangePass() {
   return (
