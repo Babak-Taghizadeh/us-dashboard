@@ -4,15 +4,38 @@ import SidebarChartCSS from './Sidebar-chart.module.css'
 export default function SidebarChart() {
   return (
     <div className={SidebarChartCSS.container}>
-          <section>
-              <button>3</button>
-              <button>9</button>
-              <button>2</button>
-              <button>1</button>
-              <button>2</button>
-              <button>2</button>
-          </section>
-          
+        <section className={SidebarChartCSS.items}>
+            <div className={SidebarChartCSS.item}>
+                <button className={SidebarChartCSS.item1}>1</button>
+                <p>ps</p>
+            </div>
+            <div className={SidebarChartCSS.item}>
+                <button className={SidebarChartCSS.item2}>2</button>
+                <p>cs</p>
+            </div>
+            <div className={SidebarChartCSS.item}>
+                <button className={SidebarChartCSS.item3}>3</button>
+                <p>Up</p>
+            </div>
+            <div className={SidebarChartCSS.item}>
+                <button className={SidebarChartCSS.item4}>4</button>
+                <p>Down</p>
+            </div>
+            <div className={SidebarChartCSS.item}>
+                <button className={SidebarChartCSS.item5}>5</button>
+                <p>Maintenance</p>
+            </div>
+            <div className={SidebarChartCSS.item}>
+                <button className={SidebarChartCSS.item6}>6</button>
+                <p>DVIp</p>
+            </div>
+        </section>
+        <section className={SidebarChartCSS.summary}>
+
+        </section>
+        <section className={SidebarChartCSS.chart}>
+
+        </section>   
     </div>
   )
 }
