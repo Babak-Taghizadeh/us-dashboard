@@ -1,15 +1,13 @@
+body {
+    box-sizing: border-box;
+}
+
 .container {
-    width: 100%;
     display: flex;
-    /* justify-content: space-between; */
-    /* gap: 20%; */
 }
 
-.container aside {
-
-}
-
-.container main {
-    /* width: 100%; */
-    /* margin-right: auto; */
+.stats {
+    display: flex;
+    height: 100vh;
+    align-items: center;
 }
